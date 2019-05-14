@@ -20,5 +20,11 @@ public class Book {
 			return genre;
 		}
 		
+		public void setPublisher(String publisher){
+			this.publisher = publisher;
+		}
+		public String getPublisher(){
+			return publisher;
+		}
 	
 }
